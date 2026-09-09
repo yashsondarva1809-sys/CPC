@@ -3,11 +3,14 @@
 void main()
 
 {
-    int n,ans=1;
+    int n,a=1,b=1,c;
     scanf("%d", &n);
     for(int i=1;i<=n;i++)
 	{
-	    ans=ans*i;
+	    printf("%d", a);
+
+        c=a+b;
+        a=b;
+        b=c;
     }
-    printf("%d", ans);
 }
